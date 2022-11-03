@@ -4,7 +4,14 @@
 
 # 残りをホワイトリストで管理
 ### not ignore ###
+
+# zsh
 !/.zshrc
+# vim
+!/.vim/
+!/.vim/colors/
+!/.vim/colors/**
+!/.vimrc
 
 !/README.md
 !.gitignore
