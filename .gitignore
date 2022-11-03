@@ -1,0 +1,12 @@
+# 最初に全て無視する
+### all ignore ###
+*
+
+# 残りをホワイトリストで管理
+### not ignore ###
+!/.zshrc
+
+!/README.md
+!.gitignore
+!.gitkeep
+
