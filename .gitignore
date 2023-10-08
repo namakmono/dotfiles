@@ -18,3 +18,5 @@
 !/.vimrc
 /.vim/.netrwhist
 
+# neovim
+!/nvim/
