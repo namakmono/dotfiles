@@ -1,0 +1,15 @@
+[core]
+  autocrlf = false
+
+[alias]
+  s = status
+  l = log
+  lf = log --pretty=fuller
+  b = branch
+  a = add
+  aa = add -A
+  cm = commit
+  cmna = commit --no-edit --amend
+  ps = push
+  f = fetch
+  pl = pull

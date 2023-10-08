@@ -10,6 +10,9 @@
 !.gitignore
 !.gitkeep
 
+# git
+!/.gitconfig
+
 # zsh
 !/.zshrc
 
