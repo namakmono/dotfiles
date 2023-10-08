@@ -1,19 +1,20 @@
 # 最初に全て無視する
 ### all ignore ###
-*
+/*
 
 # 残りをホワイトリストで管理
 ### not ignore ###
 
-# zsh
-!/.zshrc
-# vim
-!/.vim/
-!/.vim/colors/
-!/.vim/colors/**
-!/.vimrc
-
+# base
 !/README.md
 !.gitignore
 !.gitkeep
+
+# zsh
+!/.zshrc
+
+# vim
+!/.vim/
+!/.vimrc
+/.vim/.netrwhist
 
