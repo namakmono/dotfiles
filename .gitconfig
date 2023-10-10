@@ -13,3 +13,7 @@
   ps = push
   f = fetch
   pl = pull
+  sb = submodule
+  sbup = submodule update
+  sbupr = sbup --recursive
+  rpo = remote prune origin
