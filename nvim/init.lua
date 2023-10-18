@@ -6,7 +6,13 @@ vim.opt.shiftwidth = 2
 -- indent
 vim.opt.autoindent = true
 vim.opt.smartindent = true
+
 -- other
+-- 改行コードのデフォルトをUNIX(LF)に指定
+-- vim.opt.fileformat = "unix" -- この設定ではwindows環境でunixにならなかった
+vim.opt.fileformats = "unix,dos"
+-- コマンド待ち時間を短縮
+-- (kj同時押し→<esc>のキーマップ導入により、入力モード時のkまたはjの入力時に待ち時間が発生するのを、短縮するため)
 vim.opt.timeoutlen = 300
 
 -- leader
