@@ -3,12 +3,14 @@
 
 [alias]
   s = status
+  si = switch
   l = log
   lf = log --pretty=fuller
   b = branch
   a = add
   aa = add -A
   cm = commit
+  cmm = commit -m
   cmna = commit --no-edit --amend
   ps = push
   f = fetch
