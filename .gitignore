@@ -15,6 +15,7 @@
 
 # zsh
 !/.zshrc
+!/.zprofile
 
 # vim
 !/.vim/
